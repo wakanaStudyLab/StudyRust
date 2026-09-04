@@ -1,0 +1,16 @@
+[package]
+name = "sample"
+version = "0.1.0"
+edition = "2024"
+authors = ["Harun"]
+description = "Modern Rust Crash Course and Language Feature Mastery"
+
+[dependencies]
+# 本サンプルは標準ライブラリ (std) のみで完全動作します。
+# 外部 crate なしで Rust の驚異的な表現力と安全性を体感できます。
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
