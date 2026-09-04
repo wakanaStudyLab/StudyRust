@@ -9,8 +9,6 @@ C#, Go, Java, Python, C++ などの言語を習得済みのエンジニアが、
 ## 🚀 クイックスタート (実行方法)
 
 ```powershell
-cd C:\Users\harun\programming\rust\sample
-
 # ビルド & 実行 (全 8 モジュールが一括実行されます)
 cargo run
 
